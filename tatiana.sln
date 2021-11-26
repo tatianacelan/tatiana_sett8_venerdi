@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tatiana", "tatiana\tatiana.csproj", "{D46AEEF2-F964-460B-A901-B1119D539FA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubricaContattiConsoleApp", "tatiana\RubricaContattiConsoleApp.csproj", "{D46AEEF2-F964-460B-A901-B1119D539FA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubricaCore", "RubricaCore\RubricaCore.csproj", "{7BB84B0A-F0FF-46EB-B61F-F20A94B08118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryRubricaMock", "RepositoryRubricaMock\RepositoryRubricaMock.csproj", "{BE2D42DC-58E6-4093-AF53-B9F36A6426FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryRubricaAdo", "RepositoryRubricaAdo\RepositoryRubricaAdo.csproj", "{04110099-7271-4B5F-83AD-501806ECE926}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{D46AEEF2-F964-460B-A901-B1119D539FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D46AEEF2-F964-460B-A901-B1119D539FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D46AEEF2-F964-460B-A901-B1119D539FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB84B0A-F0FF-46EB-B61F-F20A94B08118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB84B0A-F0FF-46EB-B61F-F20A94B08118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB84B0A-F0FF-46EB-B61F-F20A94B08118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB84B0A-F0FF-46EB-B61F-F20A94B08118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2D42DC-58E6-4093-AF53-B9F36A6426FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2D42DC-58E6-4093-AF53-B9F36A6426FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2D42DC-58E6-4093-AF53-B9F36A6426FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2D42DC-58E6-4093-AF53-B9F36A6426FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04110099-7271-4B5F-83AD-501806ECE926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04110099-7271-4B5F-83AD-501806ECE926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04110099-7271-4B5F-83AD-501806ECE926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04110099-7271-4B5F-83AD-501806ECE926}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
